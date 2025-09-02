@@ -45,7 +45,8 @@ const RAW_RUNTIME_STATE =
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:8ad24bde6ebd5304b732ed9cfddfa3a66d8904fa3e524245ff91a6ddccdbea6771866692f707195dfe5ae6e748af0f8840a5f140c6ada1275121f36f63f7f404#npm:8.41.0"],\
           ["vite", "virtual:8ad24bde6ebd5304b732ed9cfddfa3a66d8904fa3e524245ff91a6ddccdbea6771866692f707195dfe5ae6e748af0f8840a5f140c6ada1275121f36f63f7f404#npm:7.1.4"],\
-          ["web-bounes-project", "workspace:."]\
+          ["web-bounes-project", "workspace:."],\
+          ["yup", "npm:1.7.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -3549,6 +3550,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["property-expr", [\
+      ["npm:2.0.6", {\
+        "packageLocation": "../../.yarn/berry/cache/property-expr-npm-2.0.6-2a0857ed05-10c0.zip/node_modules/property-expr/",\
+        "packageDependencies": [\
+          ["property-expr", "npm:2.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["proxy-from-env", [\
       ["npm:1.1.0", {\
         "packageLocation": "../../.yarn/berry/cache/proxy-from-env-npm-1.1.0-c13d07f26b-10c0.zip/node_modules/proxy-from-env/",\
@@ -3928,6 +3938,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["tiny-case", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../.yarn/berry/cache/tiny-case-npm-1.0.3-8c9747c74e-10c0.zip/node_modules/tiny-case/",\
+        "packageDependencies": [\
+          ["tiny-case", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["tinyglobby", [\
       ["npm:0.2.14", {\
         "packageLocation": "../../.yarn/berry/cache/tinyglobby-npm-0.2.14-d4e4bcf80e-10c0.zip/node_modules/tinyglobby/",\
@@ -3945,6 +3964,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["is-number", "npm:7.0.0"],\
           ["to-regex-range", "npm:5.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["toposort", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "../../.yarn/berry/cache/toposort-npm-2.0.2-d472329c7d-10c0.zip/node_modules/toposort/",\
+        "packageDependencies": [\
+          ["toposort", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3986,6 +4014,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["prelude-ls", "npm:1.2.1"],\
           ["type-check", "npm:0.4.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["type-fest", [\
+      ["npm:2.19.0", {\
+        "packageLocation": "../../.yarn/berry/cache/type-fest-npm-2.19.0-918b953248-10c0.zip/node_modules/type-fest/",\
+        "packageDependencies": [\
+          ["type-fest", "npm:2.19.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4171,7 +4208,8 @@ const RAW_RUNTIME_STATE =
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["typescript-eslint", "virtual:8ad24bde6ebd5304b732ed9cfddfa3a66d8904fa3e524245ff91a6ddccdbea6771866692f707195dfe5ae6e748af0f8840a5f140c6ada1275121f36f63f7f404#npm:8.41.0"],\
           ["vite", "virtual:8ad24bde6ebd5304b732ed9cfddfa3a66d8904fa3e524245ff91a6ddccdbea6771866692f707195dfe5ae6e748af0f8840a5f140c6ada1275121f36f63f7f404#npm:7.1.4"],\
-          ["web-bounes-project", "workspace:."]\
+          ["web-bounes-project", "workspace:."],\
+          ["yup", "npm:1.7.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -4253,6 +4291,19 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/yocto-queue-npm-0.1.0-c6c9a7db29-10c0.zip/node_modules/yocto-queue/",\
         "packageDependencies": [\
           ["yocto-queue", "npm:0.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["yup", [\
+      ["npm:1.7.0", {\
+        "packageLocation": "../../.yarn/berry/cache/yup-npm-1.7.0-30f9a8545e-10c0.zip/node_modules/yup/",\
+        "packageDependencies": [\
+          ["property-expr", "npm:2.0.6"],\
+          ["tiny-case", "npm:1.0.3"],\
+          ["toposort", "npm:2.0.2"],\
+          ["type-fest", "npm:2.19.0"],\
+          ["yup", "npm:1.7.0"]\
         ],\
         "linkType": "HARD"\
       }]\

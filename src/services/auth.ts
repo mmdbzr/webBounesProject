@@ -1,13 +1,14 @@
 import api from "./api";
+import type { ServicesResponse } from "../types/types";
 
 const Services = {
   checkEmailExists: async (email: string): Promise<boolean> => {
     try {
-      const response = await api.post<{ exists: boolean }>(
-        "/User/LoginWithEmail",
+      const response = await api.post<ServicesResponse["checkEmailExists"]>(
+        "/User/LoginWhithEmail",
         { email }
       );
-      return response.data.exists;
+      return response.data.data.isReadyToSendCode;
     } catch (err) {
       console.error("Email check failed:", err);
       throw err;
